@@ -1,0 +1,8 @@
+# Ignorar todo en la raíz logicamente
+/*
+
+# No ignorar la carpeta ArcRaiders (esta es la que se subirá)
+!/ArcRaiders
+
+# No ignorar el propio .gitignore para que se mantengan estas reglas
+!.gitignore
