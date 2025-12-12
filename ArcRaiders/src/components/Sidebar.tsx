@@ -187,7 +187,18 @@ export default function Sidebar(props: {
       </div>
 
       <div className="p-4 border-t border-arc-border text-xs text-center text-neutral-600">
-        Creado con ❤️ por Tarkiin / tarki_n y la comunidad de Arc Raiders
+        <p>Creado con ❤️ por Tarkiin / tarki_n y la comunidad de Arc Raiders</p>
+        <p className="mt-2">
+          Colabora en el proyecto aqui:{" "}
+          <a
+            href="https://github.com/Tarkiin/ArcRaiders_Tools"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-arc-orange hover:underline block mt-1"
+          >
+            https://github.com/Tarkiin/ArcRaiders_Tools
+          </a>
+        </p>
       </div>
     </aside>
   );
